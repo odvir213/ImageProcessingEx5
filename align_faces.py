@@ -55,4 +55,5 @@ for input_file in input_files:
                 print("CANNOT SAVE")
                 continue
     except Exception as e:
+        print("GENERAL ERROR")
         pass
