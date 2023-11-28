@@ -49,8 +49,8 @@ for input_file in input_files:
 
                 # display the output images
                 cv2.imwrite(out_file, faceAligned)
-                cv2.waitKey(0)
-                print(out_file)
+                #cv2.waitKey(1)
+                #print(out_file)
             except Exception as e:
                 print("CANNOT SAVE: " + str(e))
                 continue
