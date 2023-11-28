@@ -52,8 +52,8 @@ for input_file in input_files:
                 cv2.waitKey(0)
                 print(out_file)
             except Exception as e:
-                print("CANNOT SAVE")
+                print("CANNOT SAVE: " + str(e))
                 continue
     except Exception as e:
-        print("GENERAL ERROR")
+        print("GENERAL ERROR: " + str(e))
         pass
